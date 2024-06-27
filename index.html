@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="Login" id="LoginPage">
+        <div class="upper-login">
+            <h1>Log-in</h1>
+            <hr>
+        </div>
+        <div class="info-login">
+            <input type="text" placeholder="Email / Username" id="myUsername">
+            <input type="text" placeholder="Password" id="myPassword">
+        </div>
+        <p id="myP1">Forgot Password?</p>
+        <div class="Lower-Login">
+            <button id="myLogin">Login</button>
+            <div class="Lower-Lower">
+                <p id="myP2">Not a member ? <span id="goToSign">Sign Up</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="SignUp hidden" id="SignUpPage">
+        <div class="upper-Sign">
+            <h1>Sign-Up Page</h1>
+            <hr>
+        </div>
+        <div class="info-Sign">
+            <input type="text" placeholder="Email" id="myUsername1">
+            <input type="text" placeholder="Password" id="myPassword1">
+        </div>
+        <div class="Lower-Sign">
+            <button id="mySignUp">Sign Up</button>
+            <div class="Lower-Lower">
+                <p id="myP4">Already a member ? <span id="goToLogin">Login</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="LoggedIn hidden" id="LoggedIn">
+        <p>You have Logged In
+        <p>
+    </div>
+    <div class="SignedIn hidden" id="SignedIn">
+        <p>You have created an account, please click <span id="goToLoginA">Login</span> to Login your account
+        <p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

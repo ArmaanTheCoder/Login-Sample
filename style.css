@@ -1,0 +1,132 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    height: 97.5vh;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+}
+
+.Login, .SignUp {
+    width: 70%;
+    height: 65vh;
+    background-color: white;
+    margin-top: 30px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+
+input {
+    border: 0px;
+    border-bottom: 2px solid black;
+    padding-bottom: 14px;
+    font-size: 1.2rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.upper-login, .upper-Sign {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Lower-Sign{
+    margin-top: 50px;
+}
+
+#myP1,
+#myLogin,
+#myP2 {
+    margin-left: 10%;
+}
+
+#myP1{
+    margin-bottom: 20px;
+}
+#myP1:hover{
+    cursor: pointer;
+}
+
+#myP3,
+#mySignUp,
+#myP4 {
+    margin-left: 10%;
+}
+
+.Lower-Lower {
+    text-align: center;
+}
+
+#myLogin, #mySignUp {
+    font-size: 2rem;
+    width: 80%;
+    height: 3rem;
+    border: 2px solid darkgray;
+    text-align: center;
+    border-radius: 100px;
+    margin-bottom: 15px;
+}
+
+#myP1, #myP3 {
+    margin-bottom: 30px;
+}
+
+#myP2, #myP4 {
+    width: 80%;
+}
+
+
+.LoggedIn, .SignedIn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    width: 50vw;
+    max-width: 600px;
+    height: 10vh;
+    min-width: 40px;
+    font-size: 1.5rem;
+    font-weight: light;
+    max-height: 90px;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.red::placeholder{
+    color: red;
+    opacity: 1;
+}
+
+#goToLogin, #goToLoginA{
+    text-decoration: underline;
+    color: navy;
+}
+
+#goToLogin:Hover{
+    cursor: pointer;
+}
+
+
+#goToLoginA:Hover{
+    cursor: pointer;
+}
+
+#goToSign{
+    text-decoration: underline;
+    color: navy;
+}
+
+#goToSign:Hover{
+    cursor: pointer;
+}
